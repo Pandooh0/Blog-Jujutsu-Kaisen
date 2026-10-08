@@ -1,0 +1,221 @@
+/* Configurações gerais */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(210, 190, 255);
+
+    color: rgb(40, 30, 60);
+
+    font-family: Arial;
+}
+
+
+/* Cabeçalho */
+
+header {
+    background-color: rgb(70, 45, 120);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+header h1 {
+    margin: 10px;
+
+    font-size: 35px;
+}
+
+header p {
+    color: rgb(220, 210, 255);
+}
+
+
+/* Menu */
+
+nav {
+    background-color: rgb(110, 75, 170);
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(70, 45, 120);
+}
+
+
+/* Conteúdo */
+
+main {
+    width: 85%;
+
+    margin: 30px auto;
+}
+
+
+/* Artigo */
+
+article {
+    background-color: rgb(240, 235, 255);
+
+    padding: 20px;
+
+    border: 2px solid rgb(90, 65, 140);
+
+    border-radius: 5px;
+}
+
+article h2 {
+    color: rgb(65, 45, 120);
+
+    text-align: center;
+}
+
+article h3 {
+    color: rgb(75, 50, 130);
+
+    border-bottom: 1px solid rgb(130, 105, 190);
+
+    padding-bottom: 5px;
+}
+
+article p {
+    font-size: 17px;
+
+    line-height: 1.5;
+
+    text-align: justify;
+}
+
+
+/* Imagem */
+
+article > img {
+    display: block;
+
+    width: 70%;
+
+    margin: 20px auto;
+
+    border: 3px solid rgb(80, 55, 140);
+}
+
+
+/* Lista */
+
+ol {
+    background-color: rgb(225, 215, 250);
+
+    padding: 20px 40px;
+
+    line-height: 1.7;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+/* Informações */
+
+article footer {
+    margin-top: 25px;
+
+    padding-top: 10px;
+
+    border-top: 1px solid rgb(130, 105, 190);
+
+    color: rgb(80, 70, 100);
+}
+
+
+/* Leia também */
+
+aside {
+    background-color: rgb(190, 175, 240);
+
+    margin-top: 25px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    border: 2px solid rgb(80, 55, 140);
+}
+
+aside h2 {
+    color: rgb(65, 45, 120);
+}
+
+aside img {
+    width: 300px;
+
+    max-width: 90%;
+
+    border: 3px solid rgb(80, 55, 140);
+}
+
+aside p {
+    font-weight: bold;
+}
+
+
+/* Rodapé */
+
+body > footer {
+    background-color: rgb(55, 40, 100);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 30px;
+}
+
+
+/* Celular */
+
+@media (max-width: 600px) {
+
+    nav li {
+        display: block;
+
+        margin: 10px;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    article > img {
+        width: 100%;
+    }
+}
